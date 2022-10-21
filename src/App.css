@@ -1,14 +1,52 @@
 .page {
-  width: 100vw;
-  height: 100vh;
   background-color: #fff7f4;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
   /* align-items: center; */
 }
 .img {
 }
-.text {
+.florist-text {
+  display: flex;
+  justify-content: center;
   color: goldenrod;
   font-family: "GlacialIndifferenceRegular";
+}
+.subtitle-text {
+  display: flex;
+  justify-content: center;
+  color: goldenrod;
+  font-family: "GlacialIndifferenceRegular";
+}
+
+.links-text {
+  display: flex;
+  justify-content: center;
+  color: goldenrod;
+  font-family: "GlacialIndifferenceRegular";
+}
+.hbm-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: goldenrod;
+  font-family: "GlacialIndifferenceRegular";
+}
+.hbc-row {
+  margin-top: 75px;
+}
+
+.hbm-col {
+  margin-top: 10px;
+  color: goldenrod;
+  font-family: "GlacialIndifferenceRegular";
+}
+
+@media (max-width: 578px) {
+  .hbc-row {
+    margin-top: 275px;
+  }
 }
